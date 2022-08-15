@@ -1,0 +1,27 @@
+/* Setting the background color to aquamarine and the font to Raleway. */
+body {
+    background-color: aquamarine;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Setting the cursor to a pointer when hovering over the submit button, button, and close button. */
+input[type='submit'],button,#close
+{
+ cursor: pointer;
+}
+/* Setting the width of the todo list to 320px and the margin to 100px on the top and bottom. */
+.mytodo-list
+{
+  width:320px;
+  margin:100px auto;
+}
+/* Setting the margin of the counter to 10px on the top and bottom. */
+.counter
+{
+  margin: 10px 0;
+}
+/* Hiding the form. */
+#UpdateForm
+{   
+  display:none;
+}
